@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>楽天商品ピン投稿ツール | nyuu</title>
+<style>
+  :root {
+    --bg: #ffffff;
+    --fg: #1a1a1a;
+    --muted: #6b6b6b;
+    --accent: #b3121e;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #14161a;
+      --fg: #eaeaea;
+      --muted: #a0a0a0;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #14161a;
+    --fg: #eaeaea;
+    --muted: #a0a0a0;
+  }
+  html, body { height: 100%; }
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.8;
+    margin: 0;
+    padding: env(safe-area-inset-top, 0px) 0 env(safe-area-inset-bottom, 0px) 0;
+  }
+  main {
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+  h1 {
+    font-size: 1.6rem;
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 12px;
+    margin-bottom: 28px;
+  }
+  h2 { font-size: 1.1rem; margin-top: 32px; }
+  .muted { color: var(--muted); font-size: 0.9rem; }
+  a { color: var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>楽天商品ピン投稿ツール</h1>
+
+  <p>運営者(nyuu / Pinterest: <a href="https://www.pinterest.com/nkurokuroi/">@nkurokuroi</a>)が
+  個人利用のために開発している自動化ツールです。</p>
+
+  <h2>概要</h2>
+  <p>楽天市場の商品情報(ランキング・キーワード検索)を楽天ウェブサービスAPIから取得し、
+  運営者自身のPinterestアカウントに商品画像とアフィリエイトリンクを含むピンを
+  投稿するための、個人利用の自動化ツールです。</p>
+
+  <h2>利用範囲</h2>
+  <p>本ツールは運営者自身のPinterestアカウントのみを対象としており、
+  第三者への公開や商用サービスとしての提供は行いません。</p>
+
+  <h2>プライバシーポリシー</h2>
+  <p><a href="./privacy-policy_1.html">こちら</a>をご確認ください。</p>
+
+  <p class="muted">お問い合わせ: nkurokuroii24@gmail.com</p>
+</main>
+</body>
+</html>
